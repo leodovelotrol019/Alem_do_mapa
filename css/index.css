@@ -1,15 +1,122 @@
-  a {
-     text-decoration: none;
-     font-size: 18px;
-     color: black
-  }
+    * {
+        font-family: "fonte_padrao";
+    }
 
-  ul {
-     list-style: none;
-     display: flex;
-     gap: 30px;
-     justify-content: space-around
-  }
- 
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        /* background-color: gray; */
+        gap: 20px;
+        justify-content: space-around;
+        font-size: 18px;
+    }
+
+    #div_banner {
+        height: 400px;
+    }
+
+    #img_banner {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    @font-face {
+        font-family: "fonte_padrao";
+        src: url("../fonts/Nunito-VariableFont_wght.ttf");
+    }
+
+    #lista_menu li a:hover {
+        color: orangered;
+    }
+
+    #titulo_lugares {
+        text-align: center;
+    }
+
+    #div_lugares {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #section_lugares {
+        margin-top: 70px;
+    }
+
+    #div_lugares img {
+        transition: transform 0.5s ease;
+        border-radius: 10px;
+    }
+
+    #div_lugares img:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    #container {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .titulo {
+        text-align: center;
+        font-family: 'fonte_padrao';
+        font-size: 25px;
+    }
+
+    section:not(:first-child) {
+        margin-top: 10vh;
+    }
+
    
-  
+    .lista-horizontal {
+        text-decoration: none;
+        list-style-type: none;
+        gap: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    #informacoes-gerais {
+        color: orangered;
+    }
+
+    .espaco_img {
+        width: 50%;
+    }
+
+    .espaco_img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .texto_img {
+        width: 50%;
+        text-align: justify;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 1.5;
+    }
+    .cor-laranja{
+        color: orangered;
+    }
+    #Sobre{
+        text-align: center;
+    }
+     .paragrafo {
+        text-align: justify;
+        font-family: 'fonte_padrao';
+        
+        
+    }
