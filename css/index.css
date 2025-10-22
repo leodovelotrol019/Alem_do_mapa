@@ -112,43 +112,76 @@
 
     .cor-laranja {
         color: orangered;
-        
+
     }
 
     #Sobre {
         text-align: center;
         margin-top: 50 px;
-        
+
     }
 
     .paragrafo {
 
         text-align: justify;
         font-family: 'fonte_padrao';
-        
+
         margin: 0 auto;
-        
+
     }
-    .lg-visitar{
+
+    .lg-visitar {
         text-align: center;
         color: orangered;
         margin-top: 8vh;
     }
-    .cidades{
-         color: orangered;
-         margin-top: 8vh;
+
+    .cidades {
+        color: orangered;
+        margin-top: 8vh;
     }
-    #container{
+
+    #container {
         width: 80vw;
-    }   
-    .punta{
-        display: flex; max-width: 35%;
     }
-  #punta{
+
+    .pp {
+        width: 50%;
+    }
+
+    .pp img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .punta-p p {
+        text-align: justify;
+    }
+
+    .lugar {
+        display: flex;
+
+    }
+
+    .punta-p{
+        width: 50%;
+    
+    }
+    #punta div{
+        margin: 0 auto;
+        gap: 20px;
+        
+    }
+#aruba div{
+margin: 0 auto;
+gap: 20px;
+}
+.lugar2{
     display: flex;
-  }
-  .pp img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+}
+.aa{
+        width: 50%;
+
+}
+      
